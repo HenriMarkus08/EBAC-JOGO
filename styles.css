@@ -1,0 +1,88 @@
+body {
+    background-color: #d8e6cb;
+    background-image: url('morango.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #a13d42;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-container {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+h1, h2 {
+    color: #e94560;
+    margin: 0;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+    color: #6a8c6a;
+    width: 100%;
+}
+
+input#valor {
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #fce4e4;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    background-color: #fce4e4;
+    font-size: 1.1rem;
+    color: #a13d42;
+    box-sizing: border-box;
+}
+
+input#valor:focus {
+    outline: none;
+    border-color: #e94560;
+}
+
+button {
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #e94560;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: transform 0.2s, background 0.2s;
+    width: 100%;
+    max-width: 150px;
+}
+
+button:hover {
+    background-color: #a13d42;
+    transform: scale(1.05);
+}
+
+#mensagem {
+    font-weight: bold;
+    color: #e94560;
+    min-height: 1.5em;
+}
+
+#tentativas {
+    color: #888;
+    font-size: 0.85rem;
+}
